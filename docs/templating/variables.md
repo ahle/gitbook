@@ -2,10 +2,10 @@
 
 The following is a reference of the available data during book's parsing and theme generation.
 
-### Global Variables
+## Global Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `book` | Book-wide information + configuration settings from `book.json`. See below for details. |
 | `gitbook` | GitBook specific information |
 | `page` | Current page specific information |
@@ -17,16 +17,16 @@ The following is a reference of the available data during book's parsing and the
 | `output` | Information about the output generator |
 | `config` | Dump of the `book.json` |
 
-### Book Variables
+## Book Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `book.language` | Current language for a multilingual book |
 | `book.[value]` | All other values under `variables` in the `book.json` are accessible here |
 
 For example, with this `book.json`:
 
-```json
+```javascript
 {
   variables: {
     hello: "everyone"
@@ -36,66 +36,68 @@ For example, with this `book.json`:
 
 ... the following text `{{ book.hello }}` will expand to `everyone`.
 
-### GitBook Variables
+## GitBook Variables
 
 | Variable | Description |
-| -------- | ----------- |
-| `gitbook.time` | The current time (when you run the `gitbook` command). |
+| :--- | :--- |
+| `gitbook.time` | The current time \(when you run the `gitbook` command\). |
 | `gitbook.version` | Version of GitBook used to generate the book |
 
-### File Variables
+## File Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `file.path` | The path to the raw page |
 | `file.mtime` | Modified Time. Last time the file was modified |
-| `file.type` | The name of the parser used to compile this file (ex: `markdown`, `asciidoc`, etc) |
+| `file.type` | The name of the parser used to compile this file \(ex: `markdown`, `asciidoc`, etc\) |
 
-#### Page Variables
+### Page Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `page.title` | Title of the page |
-| `page.previous` | Previous page in the Table of Contents (can be `null`) |
-| `page.next` | Next page in the Table of Contents (can be `null`) |
-| `page.dir` | Text direction, based on configuration or detected from content (`rtl` or `ltr`) |
+| `page.previous` | Previous page in the Table of Contents \(can be `null`\) |
+| `page.next` | Next page in the Table of Contents \(can be `null`\) |
+| `page.dir` | Text direction, based on configuration or detected from content \(`rtl` or `ltr`\) |
 
-#### Table of Contents Variables
+### Table of Contents Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `summary.parts` | List of sections in the Table of Contents |
 
-The whole table of contents (`SUMMARY.md`) can be accessed:
+The whole table of contents \(`SUMMARY.md`\) can be accessed:
 
 `summary.parts[0].articles[0].title` will return the title of the first article.
 
-#### Multi-lingual book Variable
+### Multi-lingual book Variable
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `languages.list` | List of languages for this book |
 
 Languages are defined by `{ id: 'en', title: 'English' }`.
 
-### Output Variables
+## Output Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `output.name` | Name of the output generator, possible values are `website`, `json`, `ebook` |
 | `output.format` | When `output.name == "ebook"`, `format` defines the ebook format that will be generated, possible values are `pdf`, `epub` or `mobi` |
 
-### Readme Variables
+## Readme Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `readme.path` | Path to the Readme in the book |
 
-### Glossary Variables
+## Glossary Variables
 
 | Variable | Description |
-| -------- | ----------- |
+| :--- | :--- |
 | `glossary.path` | Path to the Glossary in the book |
 
-### Limitations
+## Limitations
+
 Variables won't expand when used inside `SUMMARY.md`.
+

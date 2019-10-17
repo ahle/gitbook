@@ -2,13 +2,13 @@
 
 Extending templating blocks is the best way to provide extra functionalities to authors.
 
-The most common usage is to process the content within some tags at runtime. It's like [filters](./filters.md), but on steroids because you aren't confined to a single expression.
+The most common usage is to process the content within some tags at runtime. It's like [filters](filters.md), but on steroids because you aren't confined to a single expression.
 
-### Defining a new block
+## Defining a new block
 
 Blocks are defined by the plugin, blocks is a map of name associated with a block descriptor. The block descriptor needs to contain at least a `process` method.
 
-```js
+```javascript
 module.exports = {
     blocks: {
         tag1: {
@@ -20,13 +20,13 @@ module.exports = {
 };
 ```
 
-The `process` should return the html content that will replace the tag. Refer to [Context and APIs](./api.md) to learn more about `this` and GitBook API.
+The `process` should return the html content that will replace the tag. Refer to [Context and APIs](api.md) to learn more about `this` and GitBook API.
 
-### Handling block arguments
+## Handling block arguments
 
 Arguments can be passed to blocks:
 
-```
+```text
 {% tag1 "argument 1", "argument 2", name="Test" %}
 This is the body of the block.
 {% endtag1 %}
@@ -34,7 +34,7 @@ This is the body of the block.
 
 And arguments are easily accessible in the `process` method:
 
-```js
+```javascript
 module.exports = {
     blocks: {
         tag1: {
@@ -47,11 +47,11 @@ module.exports = {
 };
 ```
 
-### Handling sub-blocks
+## Handling sub-blocks
 
 A defined block can be parsed into different sub-blocks, for example let's consider the source:
 
-```
+```text
 {% myTag %}
     Main body
     {% subblock1 %}
@@ -60,3 +60,4 @@ A defined block can be parsed into different sub-blocks, for example let's consi
     Body of sub-block 1
 {% endmyTag %}
 ```
+

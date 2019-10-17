@@ -1,41 +1,41 @@
-Styled hint blocks in your docs
-==============
+# Styled hint blocks in your docs
 
 This plugins requires gitbook `>=4.0.0`.
 
-### Install
+## Install
 
 Add the below to your `book.json` file, then run `gitbook install` :
 
-```json
+```javascript
 {
     "plugins": ["hints"]
 }
 ```
 
-### Usage
+## Usage
 
 You can now provide hints in various ways using the `hint` tag.
 
-```markdown
+```text
 {% hint style='info' %}
 Important info: this note needs to be highlighted
 {% endhint %}
 ```
 
-##### Styles
+### Styles
 
 Available styles are:
 
-- `info` (default)
-- `tip`
-- `danger`
-- `warning`
+* `info` \(default\)
+* `tip`
+* `danger`
+* `warning`
 
-##### Custom Icons
+### Custom Icons
 
-```markdown
+```text
 {% hint style='info' icon="mail" %}
 Important info: this note needs to be highlighted
 {% endhint %}
 ```
+

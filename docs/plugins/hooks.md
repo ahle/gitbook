@@ -2,28 +2,28 @@
 
 Hooks is a method of augmenting or altering the behavior of the process, with custom callbacks.
 
-### List of hooks
+## List of hooks
 
-### Relative to the global pipeline
+## Relative to the global pipeline
 
 | Name | Description | Arguments |
-| ---- | ----------- | --------- |
+| :--- | :--- | :--- |
 | `init` | Called after parsing the book, before generating output and pages. | None |
 | `finish:before` | Called after generating the pages, before copying assets, cover, ... | None |
 | `finish` | Called after everything else. | None |
 
-### Relative to the page pipeline
+## Relative to the page pipeline
 
-> It is recommended using [templating](./templating.md) to extend page parsing.
+> It is recommended using [templating](https://github.com/ahle/gitbook/tree/2b81e94a5d9b6af9f9492345bfd1db7e49fd52e8/docs/plugins/templating.md) to extend page parsing.
 
 | Name | Description | Arguments |
-| ---- | ----------- | --------- |
+| :--- | :--- | :--- |
 | `page:before` | Called before running the templating engine on the page | Page Object |
 | `page` | Called before outputting and indexing the page. | Page Object |
 
-##### Page Object
+### Page Object
 
-```js
+```javascript
 {
     // Parser named
     "type": "markdown",
@@ -44,11 +44,11 @@ Hooks is a method of augmenting or altering the behavior of the process, with cu
 }
 ```
 
-##### Example to add a title
+### Example to add a title
 
 In the `page:before` hook, `page.content` is the markdown/asciidoc content.
 
-```js
+```javascript
 {
     "page:before": function(page) {
         page.content = "# Title\n" +page.content;
@@ -57,11 +57,11 @@ In the `page:before` hook, `page.content` is the markdown/asciidoc content.
 }
 ```
 
-##### Example to replace some html
+### Example to replace some html
 
 In the `page` hook, `page.content` is the HTML generated from the markdown/asciidoc conversion.
 
-```js
+```javascript
 {
     "page": function(page) {
         page.content = page.content.replace("<b>", "<strong>")
@@ -71,13 +71,13 @@ In the `page` hook, `page.content` is the HTML generated from the markdown/ascii
 }
 ```
 
-### Asynchronous Operations
+## Asynchronous Operations
 
 Hooks callbacks can be asynchronous and return promises.
 
 Example:
 
-```js
+```javascript
 {
     "init": function() {
         return writeSomeFile()
@@ -87,3 +87,4 @@ Example:
     }
 }
 ```
+

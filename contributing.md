@@ -1,18 +1,16 @@
-
 # Contributing
 
 Want to contribute to GitBook? That would be awesome!
 
-- [Send feedback](#send-feedback)
-- [Reporting Bugs](#reporting-bugs)
-- [Asking Questions](#asking-questions)
-- [Submitting Pull Requests](#submitting-pull-requests)
-- [Running Tests](#running-tests)
+* [Send feedback](contributing.md#send-feedback)
+* [Reporting Bugs](contributing.md#reporting-bugs)
+* [Asking Questions](contributing.md#asking-questions)
+* [Submitting Pull Requests](contributing.md#submitting-pull-requests)
+* [Running Tests](contributing.md#running-tests)
 
 ## Send feedback
 
-We’ve done our best to test but your feedback is really important. If you encounter problems or have feedback about GitBook products (GitBook.com, GitBook Editor, or the Toolchain), please log an issue in the [GitbookIO/feedback](https://github.com/GitbookIO/feedback/issues) repository.
-
+We’ve done our best to test but your feedback is really important. If you encounter problems or have feedback about GitBook products \(GitBook.com, GitBook Editor, or the Toolchain\), please log an issue in the [GitbookIO/feedback](https://github.com/GitbookIO/feedback/issues) repository.
 
 ## Reporting Bugs
 
@@ -34,18 +32,19 @@ Please include tests and docs with every pull request!
 
 To run the examples, you need to have the GitBook repository cloned to your computer. After that, you need to `cd` into the directory where you cloned it, and install the dependencies from `npm` using `yarn`.
 
-```
+```text
 $ yarn install
 ```
 
 Then you'll need to bootstrap it:
 
-```
+```text
 $ npm run bootstrap
 ```
 
 Which will also compile the source files. Then run the tests with:
 
-```
+```text
 $ npm test
 ```
+

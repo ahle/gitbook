@@ -4,7 +4,7 @@ Allows you to specify terms and their respective definitions to be displayed as 
 
 The `GLOSSARY.md` format is a list of `h2` headings, along with a description paragraph:
 
-```markdown
+```text
 ## Term
 Definition for this term
 
@@ -12,3 +12,4 @@ Definition for this term
 With it's definition, this can contain bold text
 and all other kinds of inline markup ...
 ```
+

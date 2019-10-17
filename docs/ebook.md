@@ -1,8 +1,8 @@
 # Generating eBooks and PDFs
 
-GitBook can generates a website, but can also output content as ebook (ePub, Mobi, PDF).
+GitBook can generates a website, but can also output content as ebook \(ePub, Mobi, PDF\).
 
-```
+```text
 # Generate a PDF file
 $ gitbook pdf ./ ./mybook.pdf
 
@@ -13,35 +13,35 @@ $ gitbook epub ./ ./mybook.epub
 $ gitbook mobi ./ ./mybook.mobi
 ```
 
-### Installing ebook-convert
+## Installing ebook-convert
 
-`ebook-convert` is required to generate ebooks (epub, mobi, pdf).
+`ebook-convert` is required to generate ebooks \(epub, mobi, pdf\).
 
-##### GNU/Linux
+### GNU/Linux
 
 Install the [Calibre application](https://calibre-ebook.com/download).
 
-```
+```text
 $ sudo aptitude install calibre
 ```
 
 In some GNU/Linux distributions node is installed as nodejs, you need to manually create a symlink:
 
-```
+```text
 $sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
-##### OS X
+### OS X
 
 Download the [Calibre application](https://calibre-ebook.com/download). After moving the `calibre.app` to your Applications folder create a symbolic link to the ebook-convert tool:
 
-```
+```text
 $ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
 ```
 
 You can replace `/usr/bin` with any directory that is in your $PATH.
 
-### Cover
+## Cover
 
 Covers are used for all the ebook formats. You can either provide one yourself, or generate one using the [autocover plugin](https://plugins.gitbook.com/plugin/autocover).
 
@@ -53,3 +53,4 @@ A good cover should respect the following guidelines:
 * No border
 * Clearly visible book title
 * Any important text should be visible in the small version
+

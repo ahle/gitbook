@@ -4,7 +4,7 @@ GitBook uses a simple directory structure. All Markdown/Asciidoc files listed in
 
 A basic GitBook usually looks something like this:
 
-```
+```text
 .
 ├── book.json
 ├── README.md
@@ -20,22 +20,21 @@ A basic GitBook usually looks something like this:
 An overview of what each of these does:
 
 | File | Description |
-| -------- | ----------- |
-| `book.json` | Stores [configuration](config.md) data (__optional__) |
-| `README.md` | Preface / Introduction for your book (**required**) |
-| `SUMMARY.md` | Table of Contents (See [Pages](pages.md)) (__optional__) |
-| `GLOSSARY.md` | Lexicon / List of terms to annotate (See [Glossary](lexicon.md)) (__optional__) |
+| :--- | :--- |
+| `book.json` | Stores [configuration](config.md) data \(**optional**\) |
+| `README.md` | Preface / Introduction for your book \(**required**\) |
+| `SUMMARY.md` | Table of Contents \(See [Pages](pages.md)\) \(**optional**\) |
+| `GLOSSARY.md` | Lexicon / List of terms to annotate \(See [Glossary](lexicon.md)\) \(**optional**\) |
 
-### Static files and Images
+## Static files and Images
 
-A static file is a file that is not listed in the `SUMMARY.md`. All static files, unless [ignored](#ignore), are copied to the output.
+A static file is a file that is not listed in the `SUMMARY.md`. All static files, unless [ignored](structure.md#ignore), are copied to the output.
 
-### Ignoring files & folders {#ignore}
+## Ignoring files & folders <a id="ignore"></a>
 
-GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a list of files and folders to skip.
-The format inside those files, follows the same convention as `.gitignore`:
+GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a list of files and folders to skip. The format inside those files, follows the same convention as `.gitignore`:
 
-```
+```text
 # This is a comment
 
 # Ignore the file test.md
@@ -45,11 +44,11 @@ test.md
 bin/*
 ```
 
-### Project integration with subdirectory {#subdirectory}
+## Project integration with subdirectory <a id="subdirectory"></a>
 
-For software projects, you can use a subdirectory (like `docs/`) to store the book for the project's documentation. You can configure the [`root` option](config.md) to indicate the folder where GitBook can find the book's files:
+For software projects, you can use a subdirectory \(like `docs/`\) to store the book for the project's documentation. You can configure the [`root` option](config.md) to indicate the folder where GitBook can find the book's files:
 
-```
+```text
 .
 ├── book.json
 └── docs/
@@ -59,8 +58,9 @@ For software projects, you can use a subdirectory (like `docs/`) to store the bo
 
 With `book.json` containing:
 
-```
+```text
 {
     "root": "./docs"
 }
 ```
+

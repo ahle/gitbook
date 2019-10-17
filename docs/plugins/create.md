@@ -4,13 +4,13 @@ A GitBook plugin is a node package published on NPM that follow a defined conven
 
 ## Structure
 
-#### package.json
+### package.json
 
 The `package.json` is a manifest format for describing **Node.js modules**. GitBook plugins are built on top of Node modules. It declares dependencies, version, ownership, and other information required to run a plugin in GitBook. This document describes the schema in detail.
 
-A plugin manifest `package.json` can also contain details about the required configuration. The configuration schema is defined in the `gitbook` field of the `package.json` (This field follow the [JSON-Schema](http://json-schema.org) guidelines):
+A plugin manifest `package.json` can also contain details about the required configuration. The configuration schema is defined in the `gitbook` field of the `package.json` \(This field follow the [JSON-Schema](http://json-schema.org) guidelines\):
 
-```js
+```javascript
 {
     "name": "gitbook-plugin-mytest",
     "version": "0.0.1",
@@ -34,11 +34,11 @@ You can learn more about `package.json` from the [NPM documentation](https://doc
 
 The **package name** must begin with `gitbook-plugin-` and the **package engines** should contains `gitbook`.
 
-#### index.js
+### index.js
 
 The `index.js` is main entry point of your plugin runtime:
 
-```js
+```javascript
 module.exports = {
     // Map of hooks
     hooks: {},
@@ -57,7 +57,7 @@ GitBook plugins can be published on [NPM](https://www.npmjs.com).
 
 To publish a new plugin, you need to create an account on [npmjs.com](https://www.npmjs.com) then publish it from the command line:
 
-```
+```text
 $ npm publish
 ```
 
@@ -65,10 +65,11 @@ $ npm publish
 
 Private plugins can be hosted on GitHub and included using `git` urls:
 
-```
+```text
 {
     "plugins": [
         "myplugin@git+https://github.com/MyCompany/mygitbookplugin.git#1.0.0"
     ]
 }
 ```
+

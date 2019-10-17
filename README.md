@@ -1,22 +1,15 @@
+# README
+
 [![GitBook](https://raw.github.com/GitbookIO/gitbook/master/docs/images/banner.png)](https://www.gitbook.com)
 
-<p align="center">A <em>modern</em> customizable documentation format and toolchain</p>
+A _modern_ customizable documentation format and toolchain
 
+[**Features**](./#features) · [**Hosting**](https://www.gitbook.com) · [**Example**](http://redux.js.org/) · [**Editor**](https://www.gitbook.com/editor) · [**Documentation**](https://toolchain.gitbook.com/) · [**Contributing!**](contributing.md) · [**Twitter**](https://twitter.com/GitBookIO)  
+ !\[Preview\]\(https://raw.github.com/GitbookIO/gitbook/master/docs/images/preview.png\)
 
-<p align="center"><a href="#features"><strong>Features</strong></a> · <a href="https://www.gitbook.com"><strong>Hosting</strong></a> · <a href="http://redux.js.org/"><strong>Example</strong></a> · <a href="https://www.gitbook.com/editor"><strong>Editor</strong></a> · <a href="https://toolchain.gitbook.com/"><strong>Documentation</strong></a> · <a href="./CONTRIBUTING.md"><strong>Contributing!</strong></a> · <a href="https://twitter.com/GitBookIO"><strong>Twitter</strong></a></p>
-<br/>
+ ![](https://badge.fury.io/js/gitbook.svg) [![](https://travis-ci.org/GitbookIO/gitbook.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook) [![](https://ci.appveyor.com/api/projects/status/63nlflxcwmb2pue6?svg=true)](https://ci.appveyor.com/project/GitBook/gitbook) [![](https://slack.gitbook.com/badge.svg)](https://slack.gitbook.com)
 
-![Preview](https://raw.github.com/GitbookIO/gitbook/master/docs/images/preview.png)
-
-
-<p align="center">
-<img src="https://badge.fury.io/js/gitbook.svg" />
-<a href="https://travis-ci.org/GitbookIO/gitbook"><img src="https://travis-ci.org/GitbookIO/gitbook.png?branch=master" /></a>
-<a href="https://ci.appveyor.com/project/GitBook/gitbook"><img src="https://ci.appveyor.com/api/projects/status/63nlflxcwmb2pue6?svg=true" /></a>
-<a href="https://slack.gitbook.com"><img src="https://slack.gitbook.com/badge.svg" /></a>
-</p>
-
-GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). Here is an example: [ReduxJS documentation](http://redux.js.org/).
+GitBook is a command line tool \(and Node.js library\) for building beautiful books using GitHub/Git and Markdown \(or AsciiDoc\). Here is an example: [ReduxJS documentation](http://redux.js.org/).
 
 You can publish and host books easily online using [gitbook.com](https://www.gitbook.com). A desktop editor is [also available](https://www.gitbook.com/editor).
 
@@ -41,7 +34,7 @@ We're always happy to help out with your books or any other questions you might 
 ## Features
 
 * Write using [Markdown](http://toolchain.gitbook.com/syntax/markdown.html) or [AsciiDoc](http://toolchain.gitbook.com/syntax/asciidoc.html)
-* Output as a website or [ebook (pdf, epub, mobi)](http://toolchain.gitbook.com/ebook.html)
+* Output as a website or [ebook \(pdf, epub, mobi\)](http://toolchain.gitbook.com/ebook.html)
 * [Multi-Languages](http://toolchain.gitbook.com/languages.html)
 * [Lexicon / Glossary](http://toolchain.gitbook.com/lexicon.html)
 * [Cover](http://toolchain.gitbook.com/ebook.html)
@@ -52,8 +45,9 @@ We're always happy to help out with your books or any other questions you might 
 
 ## Publish your book
 
-The platform [GitBook.com](https://www.gitbook.com/) is like an "Heroku for books": you can create a book on it (public, or private) and update it using **git push**.
+The platform [GitBook.com](https://www.gitbook.com/) is like an "Heroku for books": you can create a book on it \(public, or private\) and update it using **git push**.
 
 ## Licensing
 
-GitBook is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+GitBook is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/ahle/gitbook/tree/2b81e94a5d9b6af9f9492345bfd1db7e49fd52e8/LICENSE/README.md) for the full license text.
+

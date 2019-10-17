@@ -2,11 +2,11 @@
 
 GitBooks provides different APIs and contexts to plugins. These APIs can vary according to the GitBook version being used, your plugin should specify the `engines.gitbook` field in `package.json` accordingly.
 
-#### Book instance
+## Book instance
 
 The `Book` class is the central point of GitBook, it centralize all access read methods. This class is defined in [book.js](https://github.com/GitbookIO/gitbook/blob/master/book.js).
 
-```js
+```javascript
 // Read configuration from book.json
 var value = book.config.get('title', 'Default Value');
 
@@ -22,11 +22,11 @@ book.renderBlock('markdown', '* This is **Markdown**')
     .then(function(str) { ... })
 ```
 
-#### Output instance
+## Output instance
 
 The `Output` class represent the output/write process.
 
-```js
+```javascript
 // Return root folder for the output
 var root = output.root();
 
@@ -49,11 +49,11 @@ output.hasFile('hello.txt')
     .then(function(exists) { ... });
 ```
 
-#### Page instance
+## Page instance
 
 A page instance represent the current parsed page.
 
-```js
+```javascript
 // Title of the page (from SUMMARY)
 page.title
 
@@ -70,11 +70,11 @@ page.rawPath
 page.type ('markdown' or 'asciidoc')
 ```
 
-#### Context for Blocks and Filters
+## Context for Blocks and Filters
 
 Blocks and filters have access to the same context, this context is bind to the template engine execution:
 
-```js
+```javascript
 {
     // Current templating syntax
     "ctx": {
@@ -92,6 +92,7 @@ Blocks and filters have access to the same context, this context is bind to the 
 
 For example a filter or block function can access the current book using: `this.book`.
 
-#### Context for Hooks
+## Context for Hooks
 
 Hooks only have access to the `<Book>` instance using `this.book`.
+
