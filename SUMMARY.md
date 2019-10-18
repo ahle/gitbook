@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [SmartPOS](README.md)
 * [GitBook Toolchain Documentation](docs/README.md)
   * [Glossary](docs/lexicon.md)
   * [GitBook FAQ](docs/faq.md)

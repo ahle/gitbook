@@ -1,4 +1,8 @@
-# README
+---
+description: Trang này
+---
+
+# SmartPOS
 
 [![GitBook](https://raw.github.com/GitbookIO/gitbook/master/docs/images/banner.png)](https://www.gitbook.com)
 
