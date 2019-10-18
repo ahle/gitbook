@@ -1,9 +1,9 @@
 # Table of contents
 
-* [SmartPOS](README.md)
-* [GitBook Toolchain Documentation](docs/README.md)
+* [TiimStore](README.md)
+* [TiimStore Documentation](docs/README.md)
   * [Glossary](docs/lexicon.md)
-  * [GitBook FAQ](docs/faq.md)
+  * [TiimStore FAQ](docs/faq.md)
   * [Templating](docs/templating/README.md)
     * [Builtin Templating Helpers](docs/templating/builtin.md)
     * [Content References](docs/templating/conrefs.md)
