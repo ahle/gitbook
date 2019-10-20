@@ -1,6 +1,6 @@
 # Table of contents
 
-* [TiimStore](README.md)
+* [SmartPOS](README.md)
 * [TiimStore Documentation](docs/README.md)
   * [Glossary](docs/lexicon.md)
   * [TiimStore FAQ](docs/faq.md)
