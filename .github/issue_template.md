@@ -1,6 +1,0 @@
-# ISSUE\_TEMPLATE
-
-## What is the current behavior?
-
-## What is the expected behavior?
-

@@ -4,61 +4,47 @@ Also see [https://github.com/GitbookIO/gitbook/graphs/contributors](https://gith
 
 ## Author
 
-* Samy Pessé [samy@gitbook.com](mailto:samy@gitbook.com) \(@SamyPesse\)
-* Aaron O'Mullan [aaron@gitbook.com](mailto:aaron@gitbook.com) \(@AaronO\)
-* Johan Preynat [johan@gitbook.com](mailto:johan@gitbook.com) \(@jpreynat\)
-* Nicolas Gaborit [nicolas@gitbook.com](mailto:nicolas@gitbook.com) \(@soreine\)
+* Le Anh Hoang [anh-hoang.le@aitiim.com](mailto:samy@gitbook.com) \(@ahle\)
+* Le Anh Linh [anh-linh.le@aitiim.com](mailto:aaron@gitbook.com) \(@alle\)
 
 ## Contributors
 
-* Nijiko Yonskai \(@Nijikokun\)
-* Herman Starikov \(@Hermanya\)
+* Vo Sy Tung \(@vstung\)
+* Le Duc Bao \(@ldbao\)
 
 ## Translators
 
 * German
-  * Winnie \(@winniehell\)
+  * ---
 * Italian
-  * Giulio Bonanome \(@gbonanome\)
+  * ---
 * Russian
-  * Andrey Akinshin \(@AndreyAkinshin\)
+  * ---
 * Norwegian
-  * Knut Melvær \(@kmelve\)
+  * ---
 * Persian \(Farsi\)
-  * Mohammad Hossein Mojtahedi \(@mhm5000\)
+  * ----
 * Polish
-  * Łukasz Szeremeta \(@lszeremeta\)
+  * ----
 * Portuguese
-  * Ryan O'Mullan \(@RyanOM\)
+  * ----
 * Spanish
-  * Ryan O'Mullan \(@RyanOM\)
+  * ----
 * Simplifiled Chinese
-  * Hu Hao \(@howiehu\)
+  * Le Anh Hoang \(@ahle\)
 * Traditional Chinese
-  * Hu Hao \(@howiehu\)
+  * Linna \(@linna\)
 * French
-  * Samy Pessé \(@SamyPesse\)
+  * Le Anh Hoang \(@ahle\)
 * Romanian
   * Iancu Aurel \(@awrelll\)
 * Finnish
   * Tommi Savikko \(@savikko\)
 * Japanese
-  * Iancu Aurel \(@awrelll\)
+  * Nguyen Minh Phuong \(@phuongnm\)
 * Korean
   * Iancu Aurel \(@awrelll\)
   * SangYeob Yu \(@deminoth\)
 * Vietnamese
-  * Hong Nguyen \(@nghong\)
-* Hebrew
-  * @a-moses
-* Ukrainian
-  * @Karnaukhov
-* Czech
-  * @mjanda
-* Swedish
-  * Jacob Burenstam \(@buren\)
-* Turkish
-  * Turan Konan \(@turankonan\)
-* Catalan
-  * Esaú García Sánchez-Torija \(@egasato\)
-
+  * Ha Nguyen \(@ntha\)
+* 
