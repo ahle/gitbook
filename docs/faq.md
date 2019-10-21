@@ -47,5 +47,5 @@ Yes, both the website and ebook outputs can be customized using [themes](themes.
 
 ## Can I add interactive content \(videos, etc\)?
 
-GitBook is very [extensible](plugins/). You can use [existing plugins](https://plugins.gitbook.com) or create your own!
+GitBook is very [extensible](). You can use [existing plugins](https://plugins.gitbook.com) or create your own!
 
