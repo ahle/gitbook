@@ -1,6 +1,6 @@
 # Installation
 
-![](../../.gitbook/assets/google-play-store-android-app-developer-warning-1.png)
+![](../.gitbook/assets/google-play-store-android-app-developer-warning-1.png)
 
 ###  **Download APK** <a id="download-apk"></a>
 
@@ -29,5 +29,5 @@ To run SmartPOS on Android devices, make sure :
 
 Tap on your downloaded apk. Congratulation!
 
-![](../../.gitbook/assets/capture.PNG)
+![](../.gitbook/assets/capture.PNG)
 

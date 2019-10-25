@@ -1,4 +1,4 @@
-# TiimStore FAQ
+# SmartPOS FAQ
 
 This page gathers common questions and answers concerning the GitBook format and toolchain.
 

@@ -1,4 +1,4 @@
-# SmartPOS
+# Getting Started
 
 ![](.gitbook/assets/google-play-store-android-app-developer-warning-1.png)
 
