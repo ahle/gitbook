@@ -46,5 +46,5 @@ Also see [https://github.com/GitbookIO/gitbook/graphs/contributors](https://gith
   * Iancu Aurel \(@awrelll\)
   * SangYeob Yu \(@deminoth\)
 * Vietnamese
-  * Ha Nguyen \(@ntha\)
+  * Nguyen Thi Ha \(@ntha\)
 * 
