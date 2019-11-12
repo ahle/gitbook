@@ -23,7 +23,7 @@
 * [Contributing](contributing.md)
 * [Authors](authors.md)
 
-## newgroup
+## Unique Shoping Experience <a id="use"></a>
 
-* [Untitled](newgroup/untitled.md)
+* [Customer journey](use/untitled.md)
 

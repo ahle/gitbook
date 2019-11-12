@@ -8,7 +8,19 @@ Current Features
 Ongoing features
 
 1. PWA version
-2. 
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
 
 
 
