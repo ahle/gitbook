@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [Roadmap](roadmap.md)
 * [Documentation](docs/README.md)
   * [Installation](docs/syntax.md)
   * [Changelogs](docs/untitled.md)
