@@ -15,15 +15,18 @@ Customer journey:
 5. Retention
 6. Loyalty & Advocacy
 
-Attract new customers
+### Attract new customers
 
-Engage your customers
+SmatPOS includes SEO functionality.   
+Improve the search ranking and attract the most visitors to your site
 
-Increase AOV
+### Engage your customers
 
-Moment of Purchase
+### Increase AOV
 
-Customer Retention
+### Moment of Purchase
+
+### Customer Retention
 
 
 
